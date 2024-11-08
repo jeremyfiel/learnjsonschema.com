@@ -1,0 +1,13 @@
+{
+  "name": "hugo install for learnjsonschema.com",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo": {
+      "extended": true
+    }
+  },
+  "forwardPorts": [
+    1313
+  ],
+  "postCreateCommand": "npm i"
+}
